@@ -1,0 +1,16 @@
+Créer une application pour NodeJS
+*********************************
+ - Le projet doit configuré correctement ;)
+ - Utiliser le systeme des modules
+
+• Objectif : 
+Réaliser une app qui permet d'obtenir le 
+nombre de jours avec les evenements suivants : 
+ - Le jour de Noël
+ - L'anniversaire d'utilisateur (communiqué via le terminal)
+ - Les vacances d'été (1er juillet - 31 Aout)
+ - ...
+
+• Note : 
+Si la demande est réaliser durant la période d'un evenement
+ => Indiquer à l'utilisateur que l'event est en cours.
