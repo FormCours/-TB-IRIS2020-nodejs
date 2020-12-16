@@ -1,0 +1,25 @@
+{
+  "name": "demo-01-intro",
+  "version": "1.0.0",
+  "description": "Ceci est une demo de l'utilisation de « npm »",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormCours/TB-IRIS2020-nodejs.git"
+  },
+  "keywords": [
+    "JS",
+    "NodeJS",
+    "Demo",
+    "npm"
+  ],
+  "author": "Aurélien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FormCours/TB-IRIS2020-nodejs/issues"
+  },
+  "homepage": "https://github.com/FormCours/TB-IRIS2020-nodejs#readme"
+}
