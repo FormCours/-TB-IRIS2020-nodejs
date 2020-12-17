@@ -1,0 +1,5 @@
+{
+    "source" : "demo-source.json",
+    "dest": "demo-dest.txt",
+    "file-demo": "people.json"
+}

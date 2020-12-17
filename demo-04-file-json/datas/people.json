@@ -1,0 +1,17 @@
+{
+    "number" : 3,
+    "people" : [
+        {
+            "firstname": "Zaza",
+            "lastname": "Vanderquack"
+        },
+        {
+            "firstname": "Balthazar",
+            "lastname": "Picsou"
+        },
+        {
+            "firstname": "Riri",
+            "lastname": "Duck"
+        }
+    ]
+}
