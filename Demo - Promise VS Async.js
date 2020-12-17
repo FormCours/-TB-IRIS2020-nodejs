@@ -10,12 +10,10 @@
 // Promise 1
 getSchool()
     .then((school) => {
-
         // Promise 2
         getSections(school)
         .then(sections => {
             for (const s of sections) {
-
                 // Promise 3
                 getStudents(s.id)
                     .then(students => {
@@ -26,6 +24,23 @@ getSchool()
                     })
             }
         })
+    })
+
+
+getSchool()
+    .then(sc => getSections(sc))
+    .then(sections => {
+        for (const s of sections) {
+
+            // Promise 3
+            getStudents(s.id)
+                .then(students => {
+                    const total = students.reduce((t, st) => t + st.year_result, 0)
+                    const avg = total / students.lenght
+
+                    console.log(`Moyenne de la section ${avg}`);
+                })
+        }
     })
 
 
