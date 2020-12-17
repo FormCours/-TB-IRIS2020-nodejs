@@ -1,0 +1,19 @@
+{
+  "name": "demo-03-file",
+  "version": "1.0.0",
+  "description": "Utilisation du module \"fs\" de nodeJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "FileSysteme",
+    "FS",
+    "File",
+    "Demo"
+  ],
+  "author": "Aurélien",
+  "license": "ISC"
+}
