@@ -1,0 +1,21 @@
+{
+  "name": "demo-server-01-intro",
+  "version": "1.0.0",
+  "description": "Demo basique d'un web serveur",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "debug": "nodemon server.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "WebServer",
+    "Demo"
+  ],
+  "author": "Aurélien",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
