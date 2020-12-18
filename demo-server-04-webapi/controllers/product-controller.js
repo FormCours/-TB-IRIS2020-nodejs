@@ -51,6 +51,12 @@ module.exports = {
             let products;  
             if(min !== undefined && max !== undefined) {
                 products = await Product.find().where('price').gte(min).lte(max);
+            } 
+            else if (min !== undefined) {
+                products = await Product.find().where('price').gte(min);
+            }
+            else if (max !== undefined) {
+                products = await Product.find().where('price').lte(max);
             }
             else {
                 products = await Product.find();
